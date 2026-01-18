@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build GLUT",
+            "type": "shell",
+            "command": "C:/msys64/ucrt64/bin/g++.exe",
+            "args": [
+                "${file}",
+                "-IC:/msys64/ucrt64/include",
+                "-LC:/msys64/ucrt64/lib",
+                "-lfreeglut",
+                "-lopengl32",
+                "-lglu32",
+                "-o",
+                "${workspaceFolder}/${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "env": {
+                    "PATH": "C:/msys64/ucrt64/bin;${env:PATH}"
+                }
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}

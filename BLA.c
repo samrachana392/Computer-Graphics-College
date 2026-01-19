@@ -61,6 +61,7 @@ int main(int argc, char **argv)
     scanf("%d %d", &x_end, &y_end);
 
     glutInit(&argc, argv);
+    
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
     glutInitWindowSize(500, 500); // 500 height 500 widhth of window
     glutInitWindowPosition(100, 100); // window appears 100 left of my laptop monitor/screen and 100 down of laptop monitor

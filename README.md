@@ -1,6 +1,9 @@
 # OpenGL Graphics Programs (C/C++) – Windows (MSYS2 UCRT64)
 
 This repository contains basic **Computer Graphics programs** implemented using **OpenGL (FreeGLUT)** in **C / C++**.  
+ 
+It is part of the **Computer Graphics course syllabus** and intended for **educational purposes**.  
+
 The programs are intended for **academic learning** and are configured to run on **Windows** using **MSYS2 (UCRT64)** and **Visual Studio Code**.
 
 

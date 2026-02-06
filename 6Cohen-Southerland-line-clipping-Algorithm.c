@@ -7,7 +7,7 @@
 #define BOTTOM 4   // 0100
 #define TOP    8   // 1000
 
-int xmin=50 , ymin=50 , xmax=200 , ymax=200;
+int xmin=15 , ymin=15 , xmax=25 , ymax=25;
 
 int x1, y1, x2, y2;
 
@@ -141,7 +141,7 @@ void init()
     glClearColor(0.0, 0.0, 0.0, 1.0);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    gluOrtho2D(-100, 100, -100, 100);
+    gluOrtho2D(0, 500, 0, 500);
 }
 
 // Main function 

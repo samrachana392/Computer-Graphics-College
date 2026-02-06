@@ -54,9 +54,9 @@ int main(int argc, char **argv)
     glutInit(&argc, argv);
 
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-    glutInitWindowSize(300, 300);
+    glutInitWindowSize(400, 400);
     glutInitWindowPosition(100, 100);
-    glutCreateWindow("DDA Line Drawing Algorithm");
+    glutCreateWindow("DDA 081BCT0072 (Samrachana Sharma)");
     
     init();
     glutDisplayFunc(display);

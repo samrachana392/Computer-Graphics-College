@@ -49,7 +49,7 @@ void init()
     glClearColor(0.0, 0.0, 0.0, 1.0);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    gluOrtho2D(-50, 50, -50, 100);  //  gluOrtho2D(0, 100, 0, 100) would map form 0 to 100 in x axis and 0 to 100 in y axis 
+    gluOrtho2D(-50, 50, -50, 50);  //  gluOrtho2D(0, 100, 0, 100) would map form 0 to 100 in x axis and 0 to 100 in y axis 
     // but here since we need all axes, we do -50 to 50 for x axis and -50 to 50 in y axis so that all negative numbers are also shown  
  
  
@@ -67,9 +67,9 @@ int main(int argc, char **argv)
     glutInit(&argc, argv);
 
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-    glutInitWindowSize(300, 300);     // 300 height 300 widhth of window
+    glutInitWindowSize(400, 400);     // 300 height 300 widhth of window
     glutInitWindowPosition(100, 100); // window appears 100 left of my laptop monitor/screen and 100 down of laptop monitor
-    glutCreateWindow("Mid Point Circle Drawing Algorithm");
+    glutCreateWindow("Circle 081BCT0072 (Samrachana Sharma)");
 
     init();
     glutDisplayFunc(display);
